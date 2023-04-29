@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Picture Gallery</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<style>
+		body {
+			background-color: #f8f3f3;
+			background-image: linear-gradient(to bottom right, #5748b5, #1450dc , #1AA260, #5748b5, #ffff   , #1450cb);
+			font-family: Arial, sans-serif;
+		}
+
+		h2 {
+			color: #333333;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			text-align: center;
+			font-size: 36px;
+			font-weight: bold;
+			text-shadow: 1px 1px #cccccc;
+		}
+
+		.container-fluid {
+			max-width: 800px;
+			margin: auto;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			margin: auto;
+		}
+		
+		.container-fluid img {
+			margin-right: 10px;
+		}
+
+		.row > .col-sm-4 {
+			padding: 10px;
+			margin-bottom: 20px;
+		}
+
+		.img-responsive {
+			width: 100%;
+			height: auto;
+			border-radius: 5px;
+			box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+			transition: all 0.3s ease-in-out;
+		}
+
+		.img-responsive:hover {
+			transform: scale(1.05);
+			box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="#">Picture Gallery</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="abount.html">About</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid">
+		<h2>Animals</h2>
+	<h3>Good morning everyone,
+
+        Today I would like to talk about animals and why they are an important part of our world. Animals come in all shapes and sizes, from tiny insects to enormous elephants, and they live in many different environments, such as deserts, oceans, and forests.
+        
+        Animals play a vital role in maintaining the balance of nature. They help to pollinate plants, control pests, and disperse seeds. Without animals, many plant species would struggle to survive, and our ecosystems would be severely disrupted.
+        
+        In addition to their ecological importance, animals also bring joy and companionship to our lives. Pets, such as dogs and cats, can provide us with love and companionship, and even improve our mental and physical health. Other animals, such as horses, can help us with transportation and work.
+        
+        Unfortunately, many animals are at risk due to habitat destruction, climate change, and poaching. It is our responsibility to protect and preserve these precious creatures and their habitats. We must work together to conserve our planet's biodiversity and ensure that future generations can enjoy the wonders of the natural world.
+        
+        In conclusion, animals are an integral part of our world, providing important ecological functions and enriching our lives in many ways. Let us appreciate and respect these magnificent creatures, and work together to protect and preserve them for generations to come. Thank you.</h3>
+
+	</div>
+
+</body>
